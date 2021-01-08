@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;*/
+.container{
+	width: 1140px;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	padding: 50px 0px;
+	display: flow-root;
+}
+.nav-bar{
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 25%;
+	float: left;
+}
+.menu{
+	width: 75%;
+	float: right;
+	text-align: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #c0c0c0;
+	font-weight: 400;
+}
+.menu ul li a:hover{
+	color: black;
+}
+
+/* -----------main post------------ */
+.main-post{
+	width: 100%;
+	display: flow-root;
+}
+.details{
+	padding: 70px;
+}
+.details h4{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color: #c0c0c0;
+}
+.details h1{
+	font-family: 'Playfair Display', serif;
+	color: #b0b0b0;
+	font-size: 30px;
+	margin: 20px 0;
+}
+.details p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.details span{
+	font-family: 'Playfair Display', serif;
+	font-weight: 300;
+	color: #c0c0c0;
+}
+
+/* ---------all post section---------- */
+.posts{
+	width: 100%;
+	display: flow-root;
+
+}
+.gallery{
+	float: left;
+	padding: 70px;
+}
+.left{
+	width: 50%;
+	float: left;
+	
+}
+.right{
+	width: 50%;
+	float: right;
+	
+}
+.extra{
+	padding-right: 20px;
+}
+.extra-1{
+	padding-left: 20px;
+}
+.left h4, .right h4{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color: #c0c0c0;
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: 400;
+}
+.left h1, .right h1{
+	font-family: 'Playfair Display', serif;
+	color: #b0b0b0;
+	font-size: 30px;
+	margin: 20px 0;
+}
+.left p, .right p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+/* newslatter section */
+.newslatter{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
+	padding: 70px 0px;
+}
+.contact{
+	text-align: center;
+	padding: 30px 0px;
+}
+.contact input{
+	width: 30%;
+	padding: 15px 0px;
+	border: none;
+	border-bottom: 2px solid black;
+	background: transparent;
+}
+
+.contact h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	margin: 20px 0px;
+}
+.contact input::placeholder{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: teal;
+}
+.contact input:focus{
+   outline: none;
+   border: 1px solid tomato;
+}
